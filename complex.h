@@ -87,8 +87,8 @@ class Complex
              a = atan2(I,R);
              r = n*log(r);
              r = exp(r);
-             c1.R=r*cos(a);
-             c1.I= r*sin(a);
+             c1.R=r*cos(n*a);
+             c1.I= r*sin(n*a);
            }
            else
            {
