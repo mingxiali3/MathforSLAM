@@ -54,7 +54,7 @@ class Complex
             q=-I*c.I;
             double s;
             s=(R+I)*(c.R-c.I);
-            if (w +1 !=0)
+            if (w +1 !=1)
             {
             c1.R=(p-q)/w;
             c1.I=(s-p-q)/w;
@@ -151,7 +151,7 @@ class Complex
      /*
      令z=x+jy;a=atan2(y/x);
      同时借助欧拉公式:z=r*e^(i*a);
-     u+jv=ln(z)=ln(r*e^(i*a))=ln(r)+ln(e^(i*a))=i*a+ln(r);
+     u+jv=ln(z)=ln(r*e^(i*a))=ln(r)+ln(e^(i*a))=i*a+ln(+r);
      so:
      u=ln(r);v=a;
      */
